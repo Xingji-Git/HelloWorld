@@ -65,7 +65,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "no password";
 
 try {
     $connection = new PDO("mysql:host=$servername;dbname=csc8099", $username, $password);
